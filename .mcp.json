@@ -1,10 +1,9 @@
 {
-  "servers": {
+  "mcpServers": {
     "zabbix": {
       "type": "stdio",
-      "command": "${workspaceFolder}/.venv/bin/python",
+      "command": "/Users/higorcampos/Documents/GitHub/mcp-zabbix/.venv/bin/python",
       "args": ["-m", "mcp_zabbix"]
     }
   }
 }
-
